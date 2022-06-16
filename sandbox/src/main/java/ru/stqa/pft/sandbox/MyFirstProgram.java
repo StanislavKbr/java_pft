@@ -3,10 +3,15 @@ package ru.stqa.pft.sandbox;
 public class MyFirstProgram {
 
   public static void main(String[] args) {
-    System.out.println("Hello,world");
+    String somebody = "world";
+    System.out.println("Hello, " + somebody + "!");
 
-    int l = 8;//переменная
-    int s = l * l;//синооним для вычесленного значения
-    System.out.println("Площадь прямоугольника " + l + " = " + (l + l));//как итог упрощение написание
+    double l = 8.1; //Число двойной точности
+    double s = l * l;
+    System.out.println("Площадь квадрата со стороной " + l + " = " + s);
+
+
+    //int l = 8;//переменная
+    //int s = l * l;//синоним для вычесленного значения
   }
 }
